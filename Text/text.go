@@ -1,4 +1,4 @@
-package texts
+package Text
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 	"golang.org/x/image/font/gofont/goregular"
 )
 
-func Texts() {
+func Text() {
 	const W = 500
 	const H = 300
 

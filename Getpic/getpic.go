@@ -1,4 +1,4 @@
-package getpic
+package Getpic
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package main
+package Grayscale
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func main() {
+func Grayscale() {
 	//Prompt user to enter image URL
 	fmt.Println("Enter the name of the image that you want to grayscale: ")
 
