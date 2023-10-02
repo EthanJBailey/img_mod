@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func ColorsPrint() {
+func PrintColors() {
 
 	//Prompt user to enter image name
 	fmt.Println("Enter the exact image name with extension: ")

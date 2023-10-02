@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func Getpic() {
+func Getpicture() {
 	//Prompt user to enter image URL
 	fmt.Println("Enter the image URL that you wish to retrieve: ")
 

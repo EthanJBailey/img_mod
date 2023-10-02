@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func Grayscale() {
+func imgGrayscale() {
 	//Prompt user to enter image URL
 	fmt.Println("Enter the name of the image that you want to grayscale: ")
 
