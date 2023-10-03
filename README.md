@@ -3,23 +3,22 @@
 ### Description:
 
 This program hosts four different packages that allow a user to "go get" them on their local 
-machine from anywhere. They all perform some form of Image Manipulation or ASCII art.
+machine from anywhere. They all perform varous form of Image Manipulation or ASCII art.
 
 ### Files
 
-|   #   | File             | Description                                        |
+|   #   | Folder             | Description                                        |
 | :---: | ---------------- | -------------------------------------------------- |
-|   1   | Colors           |  |
-|   2   | Getpic           |  |
-|   3   | Grayscale        |  |
-|   4   | Text             |  |
+|   1   | Colors           | Reads and prints out the package of each color  |
+|   2   | Getpic           | Retrieves and saves the image entered to the local directory|
+|   3   | Grayscale        | Converts the image to graayscale|
+|   4   | Text             |  Creates a new image containing color text entered|
 
 
 ### Instructions
 
 - Make sure you download pull all files from the package that you want to use
-- Ensure that you change directory to the folder of the file that you wish to execute.
-  - Example: `cd imagemod` or `cd P02`...etc.
 - My program expects you type the `go get` command to pull the packages off my repo.
 - Execution Command:
-  - `go get github.com/EthanJBailey/img_mod/`
+  - `go get github.com/EthanJBailey/img_mod/Colors/`
+  
