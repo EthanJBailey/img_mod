@@ -1,4 +1,5 @@
-## Program 3 - Image Ascii Art
+## 
+Image Ascii Art
 ### Ethan Bailey
 ### Description:
 

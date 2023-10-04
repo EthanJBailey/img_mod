@@ -4,13 +4,14 @@ import (
 	"fmt"
 	"image"
 	"image/color"
+	_ "image/jpeg"
 	"image/png"
 	"os"
 )
 
-func imgGrayscale() {
+func GrayScale() {
 	//Prompt user to enter image URL
-	fmt.Println("Enter the name of the image that you want to grayscale: ")
+	fmt.Println("Enter exact name of the image to grayscale: ")
 
 	// var then variable name then variable type
 	var imageUrl string
@@ -55,8 +56,10 @@ func imgGrayscale() {
 		}
 	}
 
+	fmt.Println("Grayscaling Image...Processing Grayscale...done")
+
 	// Save the grayscale image
-	grayFile, err := os.Create("grayscale.png")
+	grayFile, err := os.Create("colors_gray_scale.jpg")
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return
@@ -64,5 +67,5 @@ func imgGrayscale() {
 	defer grayFile.Close()
 	png.Encode(grayFile, grayImg)
 
-	fmt.Println("Image downloaded and saved as 'grayscale.png'.")
+	fmt.Println("Saving grayscaled image to 'colors_gray_scale.jpg'" + "... done.")
 }

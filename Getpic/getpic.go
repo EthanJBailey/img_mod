@@ -7,9 +7,9 @@ import (
 	"os"
 )
 
-func Getpicture() {
+func DownloadPicture() {
 	//Prompt user to enter image URL
-	fmt.Println("Enter the image URL that you wish to retrieve: ")
+	fmt.Println("Enter the image URL of image: ")
 
 	// var then variable name then variable type
 	var imageUrl string
@@ -32,7 +32,7 @@ func Getpicture() {
 	}
 
 	// Create a new file to save the image
-	outputFile, err := os.Create("downloaded_image.jpg")
+	outputFile, err := os.Create("colors.jpg")
 	if err != nil {
 		fmt.Println("Error creating the file:", err)
 		return
@@ -46,5 +46,7 @@ func Getpicture() {
 		return
 	}
 
-	fmt.Println("Image downloaded and saved as 'downloaded_image.jpg'")
+	fmt.Println("Downloading " + imageUrl + "...done")
+
+	fmt.Println("Saving 'colors.jpg' to local file...done")
 }

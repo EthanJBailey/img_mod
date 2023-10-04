@@ -2,6 +2,7 @@ package Text
 
 import (
 	"fmt"
+	_ "image/jpeg"
 	"io/ioutil"
 	"os"
 
@@ -9,7 +10,7 @@ import (
 	"golang.org/x/image/font/gofont/goregular"
 )
 
-func ColorText() {
+func PrintText() {
 	const W = 500
 	const H = 300
 
@@ -46,6 +47,6 @@ func ColorText() {
 	dc.DrawStringAnchored(txt, W/2, H/2, 0.5, 0.5)
 	dc.Stroke()
 
-	fmt.Println("Image saved as 'text.png'")
-	dc.SavePNG("text.png")
+	fmt.Println("Saving labeled image to colors_labeled.jpg ... done")
+	dc.SavePNG("colors_labeled.jpg")
 }
