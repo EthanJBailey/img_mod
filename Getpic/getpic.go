@@ -1,5 +1,7 @@
+// Package Declaration
 package Getpic
 
+// Imported required libraries
 import (
 	"fmt"
 	"io"
@@ -7,11 +9,15 @@ import (
 	"os"
 )
 
+// Function Name: DownloadPicture()
+// Purpose: Function that downloads an image off the net from a URL
+// Receives: URL of the image from user
+// Returns: Saves the image to te local directory
 func DownloadPicture() {
-	//Prompt user to enter image URL
+	// Prompt user to enter image URL
 	fmt.Println("Enter the image URL of image: ")
 
-	// var then variable name then variable type
+	// Declare variable to hold the URL
 	var imageUrl string
 
 	// Taking input from user
@@ -46,7 +52,7 @@ func DownloadPicture() {
 		return
 	}
 
-	fmt.Println("Downloading " + imageUrl + "...done")
-
+	// Prints completion message to the console
+	fmt.Println("Downloading " + imageUrl + " ...done")
 	fmt.Println("Saving 'colors.jpg' to local file...done")
 }
