@@ -1,5 +1,7 @@
+// Package declaration
 package Grayscale
 
+// Imported required packages
 import (
 	"fmt"
 	"image"
@@ -9,11 +11,15 @@ import (
 	"os"
 )
 
+// Function Name: GraySclae()
+// Purpose: Function that takes an image an converts each pixel to grayscale 
+// Receives: The address of the original image from user
+// Returns: Saves the gray scale image to the local directory
 func GrayScale() {
-	//Prompt user to enter image URL
+	// Prompt user to enter image URL
 	fmt.Println("Enter exact name of the image to grayscale: ")
 
-	// var then variable name then variable type
+	// Declare variable to hold image URL
 	var imageUrl string
 
 	// Taking input from user
