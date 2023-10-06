@@ -1,5 +1,7 @@
+// Package Declaration
 package Colors
 
+// Imported required packages
 import (
 	"fmt"
 	"image"
@@ -8,6 +10,10 @@ import (
 	"os"
 )
 
+// Function Name: PrintPixels()
+// Purpose: Function that prints the RGB color and address of each pixel of an image
+// Receives: The path of the original image to be scanned
+// Returns: Saves the output to a new file the local directory
 func PrintPixels() {
 
 	//Prompt user to enter image name
@@ -59,5 +65,6 @@ func PrintPixels() {
 		}
 	}
 
+	// Prints out completetion statement to console
 	fmt.Println("Saving pixel output to 'colors_pixel_counts.txt'" + "...done")
 }
