@@ -11,7 +11,7 @@ machine from anywhere. They all perform varous form of Image Manipulation or ASC
 | :---: | ---------------- | -------------------------------------------------- |
 |   1   | Colors           | Reads and prints out the package of each color  |
 |   2   | Getpic           | Retrieves and saves the image entered to the local directory|
-|   3   | Grayscale        | Converts the image to graayscale|
+|   3   | Grayscale        | Converts the image to grayscale|
 |   4   | Text             |  Creates a new image containing color text entered|
 
 
